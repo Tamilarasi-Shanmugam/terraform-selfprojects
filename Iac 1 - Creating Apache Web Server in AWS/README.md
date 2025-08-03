@@ -2,37 +2,27 @@
 
 
 
-\# File details
+\## File Details
 
 
 
-| Sr No | Document Link |
+| Sr No | File Name | Description |
 
-| ------ | ------ |
+|------|-----------|-------------|
 
-| 1 | \[main.tf - Resources - aws\_vpc , internet\_gateway , Subnet , route\_table , route\_table , aws\_route\_table\_association , ec2]\[PlDa] |
+| 1 | \[main.tf](./main.tf) | Resources: `aws\_vpc`, `internet\_gateway`, `subnet`, `route\_table`, `aws\_route\_table\_association`, `ec2` |
 
-| 2 | \[sg.tf - Security\_group , ingress and egress]\[PlDb] |
+| 2 | \[sg.tf](./sg.tf) | Security group: `ingress`, `egress` |
 
-| 3 | \[variables.tf - Declared variables]\[PlDc] |
+| 3 | \[variables.tf](./variables.tf) | Declared input variables |
 
-| 4 | \[aws.tfvars - Actual values declaration\[PlDd] |
+| 4 | \[aws.tfvars](./aws.tfvars) | Actual values declaration |
 
-| 5 | \[output.tf - Gives you an public ip to access apache server]\[PlDe] |
+| 5 | \[output.tf](./output.tf) | Outputs public IP to access Apache server |
 
-| 6 | \[Command.txt - Command to execute]\[PlDf] |
+| 6 | \[command.txt](./command.txt) | Terraform commands to execute |
 
 
 
-&nbsp;  \[PlDa]: <./main.tf>
-
-&nbsp;  \[PlDb]: <./sg.tf>
-
-&nbsp;  \[PlDc]: <./variables.tf>
-
-&nbsp;  \[PlDd]: <./aws.tfvars>
-
-&nbsp;  \[PlDe]: <./output.tf>
-
-&nbsp;  \[PlDf]: <./command.txt>
+---
 
