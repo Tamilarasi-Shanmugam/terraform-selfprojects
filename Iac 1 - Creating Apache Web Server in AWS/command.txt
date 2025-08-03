@@ -1,0 +1,3 @@
+terraform init
+terraform plan -var-file=aws.tfvars
+terraform apply -var-file=aws.tfvars -auto-approve
